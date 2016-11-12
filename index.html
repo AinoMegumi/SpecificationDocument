@@ -1,0 +1,153 @@
+﻿<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="仕様書" />
+    <meta name="author" content="あいめぐ" />
+    <title>仕様書トップ</title>
+    <link rel="stylesheet" href="http://aimegu.webcrow.jp/css/style.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/sanitize.css/2.0.0/sanitize.min.css" />
+    <script src="http://aimegu.webcrow.jp/js/link.js"></script>
+    <script src="http://aimegu.webcrow.jp/js/operating_system.js"></script>
+</head>
+<body>
+    <div align="center"><h1>ゲームの仕様書</h1></div>
+    <section>
+    	<div align="center">
+	        <!-- FC2カウンター ここから -->
+	        アクセス数:
+	        <script language="javascript" type="text/javascript" src="http://counter1.fc2.com/counter.php?id=89444335"></script><noscript><img src="http://counter1.fc2.com/counter_img.php?id=89444335" /></noscript><br />
+	        <!-- FC2カウンター ここまで -->
+	        <!-- FC2カウンター ここから -->
+	        現在の閲覧者数:
+	        <script language="javascript" type="text/javascript" src="http://counter1.fc2.com/views.php?id=89444335"></script><noscript><img src="http://counter1.fc2.com/counter_now.php?id=89444335" /></noscript>
+	        <!-- FC2カウンター ここまで -->
+		</div>
+    </section>
+    <section>
+		<div align="center">
+			<script type="text/javascript">
+				document.write("あなたのコンピューターのオペレーティングシステムは" + get_os() + "です。");
+			</script>
+		</div>
+        </section>
+
+    <section>
+        <h2>はじめに</h2>
+        <p>
+            みなさん、こんにちは。あいめぐです。一部の人は神御田と言ったほうが分かりますかね…。<br />
+            本サイトは、私が開発を行っているゲームの仕様を公開しているページです。<br />
+            要望は全てIssueで受け付けています。<br />
+            リポジトリは<a href="https://github.com/AinoMegumi/SpecificationDocument">こちら</a>です。<br>
+            間違って来てしまった方、私のホームページは<a href="http://aimegu.webcrow.jp/">こちら</a>です。
+        </p>
+    </section>
+    <section>
+        <section>
+            <h3>リポジトリタイプのマークの意味</h3>
+            <p>
+                (S)：個人プロジェクト<br />
+                (T)：チームプロジェクト<br />
+                (C)：プライベートリポジトリで管理されているクローズドプロジェクト<br />
+                (O)：パブリックリポジトリで管理されているオープンプロジェクト<br />
+                (N)：まだGitによる管理を始めていない、または仕様を考えているプロジェクト
+            </p>
+        </section>
+        <section>
+            <h3>対応OS</h3>
+            <p>
+                〇：32bit、64bit共に対応<br />
+                64：64bitのみに対応<br />
+                △：対応検討中<br />
+                ×：対応なし、対応予定なし
+            </p>
+        </section>
+        <section>
+            <h3>リンク</h3>
+            <table>
+                <tr>
+                    <td>リポジトリタイプ</td>
+                    <td>タイトル</td>
+                    <td>ジャンル</td>
+                    <td>仕様書</td>
+                    <td>ゲームページ</td>
+                    <td>Windows 7</td>
+                    <td>Windows 8</td>
+                    <td>Windows 8.1</td>
+                    <td>Windows 10</td>
+                    <td>Mac OS X</td>
+                    <td>Linux OS</td>
+                    <td>iOS</td>
+                    <td>Andriod OS</td>
+                    <td>Windows Mobile</td>
+                </tr>
+                <tr>
+                    <td>(S)(C)</td>
+                    <td>モンスター討伐ゲーム　アンチ核家族化</td>
+                    <td>対戦</td>
+                    <td><a href="./BitBucket/DefeatMonster.html"></a>準備中</td>
+                    <td><a href="http://aimegu.webcrow.jp/download/DefeatMonster.html">こちら</a></td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>○</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>×</td>
+                    <td>△</td>
+                    <td>△</td>
+                </tr>
+                <tr>
+                	<td>(S)(O)</td>
+                	<td>東京国税局査察部です</td>
+                	<td>アクション</td>
+                	<td><a href="./GitHub/WeAreTokyoRevenueInspectionUnit.html"></a>準備中</td>
+                	<td>開発中</td>
+                	<td>○</td>
+                	<td>○</td>
+                	<td>○</td>
+                	<td>○</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>×</td>
+                </tr>
+                <tr>
+                	<td>(S)(N)</td>
+                	<td>うれしいひなまつり</td>
+                	<td>アクション</td>
+                	<td>企画検討中です</td>
+                	<td>企画検討中です</td>
+                	<td>○</td>
+                	<td>○</td>
+                	<td>○</td>
+                	<td>○</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>×</td>
+				</tr>
+				<tr>
+					<td>(T)(C)</td>
+					<td>あまいろパステル</td>
+					<td>恋愛シミュレーション</td>
+					<td><a href="./BitBucket/AmairoPastel.html"></a>準備中</td>
+					<td>開発中</td>
+					<td>×</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>○</td>
+                	<td>△</td>
+                	<td>△</td>
+                	<td>×</td>
+                	<td>×</td>
+                	<td>10のみ</td>
+				</tr>
+            </table>
+        </section>
+    </section>
+</body>
+</html>
